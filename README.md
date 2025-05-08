@@ -37,13 +37,7 @@ The `dual_actor_ppo.py` file defines a modified PPO agent with:
 
 ---
 
-## Environment & Model
-
-**Environment:**
-- Isaac Gym Preview 4 task: `BallBalance`
-- 2048 parallel environments for training
-- Observation: 18-D state (DOF, ball pos/vel, etc.)
-- Action: 7-D joint command
+##  Model
 
 **Model (in `torch_ball_balacing.py`):**
 - Shared actor-critic model using mixin classes
@@ -77,7 +71,7 @@ python torch_ball_balacing.py --test
 
 
 
-## 📄 License
+##  License
 
 This project adapts the `skrl` PPO implementation with custom logic.  
 Original PPO framework from [`skrl`](https://github.com/Toni-SM/skrl).
